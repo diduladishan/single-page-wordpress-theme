@@ -1,0 +1,79 @@
+/*
+Theme Name: Custom Theme
+Theme URI: https://example.com
+Author: Your Name
+Author URI: https://example.com
+Description: A simple custom WordPress theme based on an HTML, CSS, and JavaScript website.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: custom-theme
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home {
+  background-color: #f1f1f1;
+}
+
+#menu {
+  background-color: #e2e2e2;
+}
+
+#contact {
+  background-color: #d3d3d3;
+}
+
+#service {
+  background-color: #c4c4c4;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
