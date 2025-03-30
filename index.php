@@ -1,10 +1,26 @@
 <?php get_header(); ?>
 
 <main>
-    <section id="home">
-        <h1>Welcome to Our Website</h1>
-        <p>This is the home section of the page.</p>
-    </section>
+<section id="home">
+    <div class="video-background">
+        <video autoplay muted loop class="background-video">
+            <source src="<?php echo get_template_directory_uri(); ?>/main-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="home-container">
+            <div class="home-content">
+                <h1 class="jost-font home-text-1">Welcome to PatioTime</h1>
+                <p class="cormorant-font home-text-2">Delicious Food & Wonderful Eating Experience</p>
+                <p class="jost-font home-text-3">We Serve Food, Harmony, & Laughter Since 1998</p>
+                <div class="button-control">
+                    <div class="jost-font home-button">VIEW FULL MENUS</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <section id="menu">
         <h1>Our Menu</h1>
